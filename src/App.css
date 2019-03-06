@@ -1,33 +1,47 @@
-.App {
+.HeaderStyle{
+  font-size: 25px;
   text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background:black;
   color: white;
+  padding: 5px;
+  margin-bottom: 5px;
 }
-
-.App-link {
-  color: #61dafb;
+.PageButton{
+  border-radius: 3%;
+  padding: 5px;
+  font-size: medium;
+  margin-bottom: 5px;
+  border: 1px solid black;
+  background: cornflowerblue;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.FORMSHOW{
+  font-size: 18px;
+}
+.FORMDATA{
+  font-size: 15px;
+}
+.SUBMITBUTTON{
+  margin-top: 10px;
+  border: 1px solid black;
+  background: lightgreen;
+  padding: 3px;
+  font-size: 15px;
+}
+.USER{
+  display: block;
+}
+.PHONE{
+  display: block;
+  margin-top: -13px;
+}
+.Table{
+  width: 100%;
+  margin-top: 20px;
+}
+.TableHead{
+  color: red;
+    font-size: larger;
+}
+.TableBody{
+  text-align: center;
 }
